@@ -13,8 +13,12 @@ body {
     color: #777;
 }
 
+.text-contact {
+    color: #fff;
+}
+
 .text-primary {
-    color: #fed136;
+    color: #ff0000;
 }
 
 p {
@@ -35,7 +39,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #ff0000;
 }
 
 a:hover,
@@ -119,14 +123,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #ff0000;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #ff0000;
 }
 
 .btn-xl:hover,
@@ -176,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #ff0000;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -209,7 +213,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #000;
 }
 
 .navbar-default .nav li a:hover,
@@ -221,7 +225,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #ff0000;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -259,13 +263,17 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .navbar-default.navbar-shrink .navbar-buttons {
+        color: #fff;
+    }
 }
 
 header {
     text-align: center;
     color: #ff0000;
-    background-attachment: scroll;
-    background-image: url(../img/header-mapa-da-saude.png);
+    background-attachment: scroll;    
+    background-image: url(../img/header-mapa-da-saude.png);    
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -275,8 +283,9 @@ header {
 }
 
 header .intro-text {
+    color: #000000;
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 50px;    
 }
 
 header .intro-text .intro-lead-in {
